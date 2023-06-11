@@ -54,4 +54,10 @@ body {
   
   .nav-link {
     color: black !important;
+    margin: 2rem;
+    list-style: none;
+  }
+  .ProfilePicture {
+    align-items: center;
+    
   }

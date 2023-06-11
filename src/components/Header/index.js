@@ -21,9 +21,6 @@ function Header(props) {
           <li className="nav-item mx-1">
             <a className={`nav-link link-text ${activeLink === 'portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('portfolio')} href="#portfolio"> Portfolio </a>
           </li>
-          <li className="nav-item mx-1">
-            <a className={`nav-link link-text ${activeLink === 'contact' ? 'active' : ''}`} onClick={() => handleLinkClick('contact')} href="#contact"> Contact </a>
-          </li>
         </ul>
       </div>
     </nav>
