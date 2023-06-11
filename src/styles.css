@@ -6,7 +6,7 @@ body {
   }
   
   .text-color {
-    color: #305F87;
+    color: #000000;
   }
   
   .nav-text {
@@ -34,7 +34,7 @@ body {
   }
   
   .custom-border {
-    border-left: 2px solid #305F87;
+    border-left: 2px solid #ff7b00;
   }
   
   .indent {
@@ -54,7 +54,4 @@ body {
   
   .nav-link {
     color: black !important;
-  }
-  .col-md-8 {
-    color: #305F87;
   }

@@ -4,11 +4,6 @@ import '../../styles.css';
 function AboutMe() {
   return (
     <div className="container d-flex flex-column align-items-center text-center">
-      <img
-        src="https://tunestring.github.io/m2challenge/assets/me.jpg"
-        alt="Profile"
-        className="profile-image rounded-circle"
-      />
       <div className="d-flex flex-row justify-content-between w-100">
         <div className="flex-grow-1 pe-4 pt-5">
           <h2 className="text-color my-4 mt-5 text-center text-nowrap">My Story</h2>

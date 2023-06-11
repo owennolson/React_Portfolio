@@ -1,15 +1,12 @@
 import React from 'react';
-import AboutMe from './navbar-components/AboutMe';
-import Contact from './Contact';
-import Portfolio from './navbar-components/Portfolio';
+import AboutMe from '../Navigation/AboutMe';
+import Portfolio from '../Navigation/Portfolio';
 
 function Project({ currentPage }) {
   const renderPage = () => {
     switch (currentPage) {
       case 'about':
         return <AboutMe />;
-      case 'contact':
-        return <Contact />;
       case 'portfolio':
         return <Portfolio />;
       default:

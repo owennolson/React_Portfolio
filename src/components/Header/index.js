@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../style.css';
+import '../../styles.css';
 
 function Header(props) {
   const [activeLink, setActiveLink] = useState(props.currentPage);
