@@ -1,10 +1,8 @@
 import React from 'react';
 import Card from './Card';
-
 import Movies321 from '../../Images/Shrek.png';
 import WeatherForecast from '../../Images/WeatherForecast.png';
 import InNeed from '../../Images/InNeed.png';
-
 import '../../styles.css';
 
 function Portfolio() {
